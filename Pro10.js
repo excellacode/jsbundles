@@ -1,23 +1,30 @@
 ////Write a JavaScript program to calculate multiplication and division of two numbers (input from user). 
-function Pro10()
+<p id="funct"></p>
+
+<script>
+
+function Pro10(num1,num2)
 {
-var num1;
-var num2;
-var resultMulti;
-var resultDivi;
+    //var num1
+    //var num2
+    //var resultMulti
+    //var resultDivi
 
-funtion number: multi(num1, num2)
-{
-    resultMulti = num1* num2;
+    var resultMulti = multi(1,2);
+    funtion multi (num1, num2)
+    {
+        resultMulti = num1* num2
+    }
+
+    var resultDivi = divi(1,2);
+    function divi (num1, num2)
+    {
+        resultDivi= num1/num2
+    }
+
 }
+</script>
 
-function number: divi()
-{
-    resultDivi= num1/num2;
-}
+//document.getElementById("funct").innerHTML = Pro10();
 
-}
-
-Pro10();
-
-////Actual Code
+////Actual Code:
