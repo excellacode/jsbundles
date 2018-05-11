@@ -1,10 +1,10 @@
 ////Write a JavaScript program to calculate multiplication and division of two numbers (input from user). 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title>Pro10 - Write a JavaScript program to calculate multiplication and division of two numbers (input from user). </title>
-<script>
+// <!DOCTYPE html>
+// <html>
+// <head>
+//     <meta charset="utf-8" />
+//     <title>Pro10 - Write a JavaScript program to calculate multiplication and division of two numbers (input from user). </title>
+// <script>
     function multi()
     {
         var inputOne = document.getElementById("txtoneid").value;
@@ -35,7 +35,7 @@
         }
         document.getElementById("lblResult").innerHTML = result;
     }
-</script>
+{/* </script>
 </head>
 
 <body>
@@ -68,21 +68,21 @@
     The Result is :  
      <label id="lblResult"></label> 
 </body>
-</html>
+</html> */}
 
-//document.getElementById("funct").innerHTML = Pro10();
+// //document.getElementById("funct").innerHTML = Pro10();
 
-////Actual Code:
-// function multiplyBy()
-// {
-//         num1 = document.getElementById("firstNumber").value;
-//         num2 = document.getElementById("secondNumber").value;
-//         document.getElementById("result").innerHTML = num1 * num2;
-// }
+// ////Actual Code:
+// // function multiplyBy()
+// // {
+// //         num1 = document.getElementById("firstNumber").value;
+// //         num2 = document.getElementById("secondNumber").value;
+// //         document.getElementById("result").innerHTML = num1 * num2;
+// // }
 
-// function divideBy() 
-// { 
-//         num1 = document.getElementById("firstNumber").value;
-//         num2 = document.getElementById("secondNumber").value;
-// document.getElementById("result").innerHTML = num1 / num2;
-// }
+// // function divideBy() 
+// // { 
+// //         num1 = document.getElementById("firstNumber").value;
+// //         num2 = document.getElementById("secondNumber").value;
+// // document.getElementById("result").innerHTML = num1 / num2;
+// // }
